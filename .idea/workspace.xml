@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5ef60c86-1a85-411b-91c4-78ba7d9f8618" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/FactoryDefaultDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/prototypepattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplefactorypattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/haixiang/thread/com.threadtest/share.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/haixiang/thread/com.threadtest/threadtestMain.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/haixiang/target/" />
+    <ignored path="$PROJECT_DIR$/haixiang/com-ssm/target/" />
+    <ignored path="$PROJECT_DIR$/haixiang/thread/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Trousers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplefactorypattern/Trousers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClothingFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplefactorypattern/ClothingFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplefactorypattern/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Underwear.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/abstractfactorypattern/Underwear.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/abstractfactorypattern/Client.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ClothingTFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/abstractfactorypattern/ClothingTFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2019-6-11-java-learn-thread-02.md" pinned="false" current-in-tab="true">
+        <entry file="file://H:/Learn/blog/myblog/chinakarl.github.io/_posts/2019/2019-6-11-java-learn-thread-02.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-395">
+                <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Coat.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/abstractfactorypattern/Coat.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="IClothing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/abstractfactorypattern/IClothing.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Trousers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/abstractfactorypattern/Trousers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>for</find>
+      <find>ensureCapacityInternal</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="H:/Learn/blog/myblog/chinakarl.github.io/_posts/2018/2018-6-07-kafka-builder.md" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/collection/lambda/TestDemo.java" />
+        <option value="H:/Learn/blog/myblog/chinakarl.github.io/_posts/2019/2019-6-11-java-learn-thread.md" />
+        <option value="H:/Learn/blog/myblog/chinakarl.github.io/_posts/2019/2019-6-11-java-learn-thread-01.md" />
+        <option value="H:/Learn/blog/myblog/chinakarl.github.io/_posts/2019/2019-6-11-java-learn-thread-02.md" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/thread/RunnableDemo.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/hashmap/Demo.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/thread/WaitAndNotify.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/atomic/AtomicLong.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/atomic/AtomicLongDemo.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/SimpleFactory.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/FactoryDefaultDemo.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/SimpleFactory.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/TrafficFactory.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplepattern/ITraffic.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplepattern/Car.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplepattern/Train.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplepattern/Plane.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplepattern/SimpleFactory.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplepattern/TrafficFactory.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplepattern/Demo.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/abstractfactorypattern/Plane.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/builderpattern/MDOModel.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/builderpattern/BMWModel.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/builderpattern/CarModel.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/builderpattern/BMWBuilder.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/builderpattern/CarBuilder.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/builderpattern/MDOBuilder.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/builderpattern/Director.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/builderpattern/Demo.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/behavior/templatepattern/BuilderHouse.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/behavior/templatepattern/HouseTemplate.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/behavior/templatepattern/GlassHouse.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/behavior/templatepattern/BungalowHouse.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/behavior/templatepattern/Client.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/prototypepattern/AdvTemplate.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/prototypepattern/Mail.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/prototypepattern/Client.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/singletonpattern/Demo.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/singletonpattern/SingletonObject.java" />
+        <option value="H:/Learn/blog/myblog/chinakarl.github.io/_posts/2019/2019-7-22-singleton-pattern.md" />
+        <option value="H:/Learn/blog/myblog/chinakarl.github.io/_posts/2019/2019-7-22-design-pattern.md" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplefactorypattern/IClothing.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplefactorypattern/Underwear.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplefactorypattern/Coat.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplefactorypattern/ClothingFactory.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplefactorypattern/Client.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplefactorypattern/Trousers.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/abstractfactorypattern/Trousers.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/abstractfactorypattern/ClothingFactory.java" />
+        <option value="$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/abstractfactorypattern/ClothingTFactory.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\maven\repository" />
+        <option name="userSettingsFile" value="E:\maven\mysettings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="haixiang" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="javaleraning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaleraning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaleraning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaleraning" type="462c0819:PsiDirectoryNode" />
+              <item name="haixiang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaleraning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaleraning" type="462c0819:PsiDirectoryNode" />
+              <item name="haixiang" type="462c0819:PsiDirectoryNode" />
+              <item name="jdksoundcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaleraning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaleraning" type="462c0819:PsiDirectoryNode" />
+              <item name="haixiang" type="462c0819:PsiDirectoryNode" />
+              <item name="jdksoundcode" type="462c0819:PsiDirectoryNode" />
+              <item name="atomic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaleraning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaleraning" type="462c0819:PsiDirectoryNode" />
+              <item name="haixiang" type="462c0819:PsiDirectoryNode" />
+              <item name="jdksoundcode" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../market-center" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\JAVA\javalearn\javaleraning\haixiang\jdksoundcode\desigpattern\create\abstractfactorypattern" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdksoundcode.desigpattern.create.prototypepattern.Client" />
+      <module name="haixiang" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdksoundcode.desigpattern.create.prototypepattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdksoundcode.desigpattern.behavior.templatepattern.Client" />
+      <module name="haixiang" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdksoundcode.desigpattern.behavior.templatepattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdksoundcode.desigpattern.create.simplefactorypattern.Client" />
+      <module name="haixiang" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdksoundcode.desigpattern.create.simplefactorypattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdksoundcode.desigpattern.create.builderpattern.Demo" />
+      <module name="haixiang" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdksoundcode.desigpattern.create.builderpattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="FactoryDefaultDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdksoundcode.desigpattern.create.FactoryDefaultDemo" />
+      <module name="haixiang" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdksoundcode.desigpattern.create.simplefactorypattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.FactoryDefaultDemo" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Demo (1)" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Demo (1)" />
+        <item itemvalue="Application.FactoryDefaultDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ef60c86-1a85-411b-91c4-78ba7d9f8618" name="Default" comment="" />
+      <created>1543201123668</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543201123668</updated>
+      <workItem from="1543201125485" duration="903000" />
+      <workItem from="1543806467505" duration="1155000" />
+      <workItem from="1543819923611" duration="1694000" />
+      <workItem from="1543909415314" duration="597000" />
+      <workItem from="1543979970608" duration="597000" />
+      <workItem from="1544150067760" duration="599000" />
+      <workItem from="1555390170918" duration="21000" />
+      <workItem from="1555476069905" duration="1263000" />
+      <workItem from="1555491096970" duration="599000" />
+      <workItem from="1555492456991" duration="8653000" />
+      <workItem from="1555637830197" duration="7911000" />
+      <workItem from="1555660969942" duration="72000" />
+      <workItem from="1555661069821" duration="5147000" />
+      <workItem from="1555908333562" duration="1174000" />
+      <workItem from="1555925507761" duration="124000" />
+      <workItem from="1555925648799" duration="471000" />
+      <workItem from="1555926137369" duration="1758000" />
+      <workItem from="1555984452241" duration="3853000" />
+      <workItem from="1556071979175" duration="5480000" />
+      <workItem from="1556241891727" duration="2415000" />
+      <workItem from="1556254237588" duration="599000" />
+      <workItem from="1556257395489" duration="1363000" />
+      <workItem from="1556588241471" duration="578000" />
+      <workItem from="1557104028556" duration="1043000" />
+      <workItem from="1557127182727" duration="618000" />
+      <workItem from="1557193560705" duration="603000" />
+      <workItem from="1557363526910" duration="622000" />
+      <workItem from="1557710421379" duration="6971000" />
+      <workItem from="1558404998702" duration="1622000" />
+      <workItem from="1558602888639" duration="635000" />
+      <workItem from="1558920112187" duration="745000" />
+      <workItem from="1559006393893" duration="6860000" />
+      <workItem from="1559523947740" duration="1784000" />
+      <workItem from="1560150789788" duration="29571000" />
+      <workItem from="1562738102557" duration="29372000" />
+      <workItem from="1563760284421" duration="21461000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="148933000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.47821352" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.23638344" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.054371003" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.34422657" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16204691" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.1819172" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="3" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" />
+      <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.58061004" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/haixiang/jdksoundcode/collection/Test.java</url>
+          <line>8</line>
+          <properties field="collection" class="jdksoundcode.collection.Test" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/haixiang/jdksoundcode/thread/RunnableDemo.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/haixiang/jdksoundcode/thread/RunnableDemo.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplefactorypattern/Trousers.java</url>
+          <line>7</line>
+          <log-expression expression="ublic class Trousers {&#10;&#10;    public void start()&#10;    {&#10;        System.out.println(&quot;正在制作裤子...&quot;);&#10;    }&#10;    public void colour()&#10;    {&#10;        System.out.println(&quot;给裤子上色...&quot;);&#10;    }&#10;    public void pack()&#10;    {&#10;        System.out.println(&quot;裤子制作完包装...&quot;);&#10;    }&#10;&#10;}" language="JAVA" />
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointLogExpression">
+      <expression>
+        <expression-string>ublic class Trousers {
+
+    public void start()
+    {
+        System.out.println(&quot;正在制作裤子...&quot;);
+    }
+    public void colour()
+    {
+        System.out.println(&quot;给裤子上色...&quot;);
+    }
+    public void pack()
+    {
+        System.out.println(&quot;裤子制作完包装...&quot;);
+    }
+
+}</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/haixiang/thread/com.threadtest/threadtestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/thread/RunnableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="75" column="24" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/thread/WaitAndNotify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.concurrent.atomic.AtomicLong">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.concurrent.atomic.AtomicLong</OriginalElement>
+          <nodes>
+            <node x="" y="">java.util.concurrent.atomic.AtomicLong</node>
+            <node x="" y="">java.lang.Number</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="68.0" y="95.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="379" column="65" lean-forward="true" selection-start-line="379" selection-start-column="65" selection-end-line="379" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/concurrent/atomic/AtomicLong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="209" column="5" lean-forward="true" selection-start-line="209" selection-start-column="5" selection-end-line="209" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/atomic/AtomicLongDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/FactoryDefaultDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/abstractfactorypattern/ITraffic.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/abstractfactorypattern/Demo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/abstractfactorypattern/TrafficFactory.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/abstractfactorypattern/Train.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/abstractfactorypattern/Plane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="1104" column="35" selection-start-line="1104" selection-start-column="19" selection-end-line="1104" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/builderpattern/MDOModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/builderpattern/BMWBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/builderpattern/BMWModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/builderpattern/CarModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/builderpattern/CarBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/builderpattern/MDOBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/builderpattern/Director.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/behavior/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/behavior/templatepattern/GlassHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/behavior/templatepattern/BungalowHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/builderpattern/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="5" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/behavior/templatepattern/HouseTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/prototypepattern/AdvTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/prototypepattern/Mail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+          <folding>
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1191#1192#0" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+            <element signature="e#1263#1264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/Learn/blog/myblog/chinakarl.github.io/_posts/2018/2018-02-02-redis-cluster.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="323">
+            <caret line="17" lean-forward="true" selection-end-line="66" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/behavior/templatepattern/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/singletonpattern/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/singletonpattern/SingletonObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/prototypepattern/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/Learn/blog/myblog/chinakarl.github.io/_posts/2019/2019-7-22-design-pattern.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="265">
+            <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/Learn/blog/myblog/chinakarl.github.io/_posts/2019/2019-7-22-singleton-pattern.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="418">
+            <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplefactorypattern/Underwear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplefactorypattern/IClothing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" selection-start-line="21" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplefactorypattern/Coat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplefactorypattern/Trousers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplefactorypattern/ClothingFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/abstractfactorypattern/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/simplefactorypattern/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/abstractfactorypattern/Underwear.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/abstractfactorypattern/Client.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/abstractfactorypattern/Coat.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/abstractfactorypattern/IClothing.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/abstractfactorypattern/Trousers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haixiang/jdksoundcode/desigpattern/create/abstractfactorypattern/ClothingTFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/Learn/blog/myblog/chinakarl.github.io/_posts/2019/2019-6-11-java-learn-thread-02.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-395">
+            <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
